@@ -27,7 +27,7 @@ namespace Ejercicio_7
                 total += dado;
                 turnos++;
 
-                if (ant == 10 && dado == 12)
+                if (ant == 10 && dado == 12 && turnos > 3)
                 {
                     Console.WriteLine("Ganaste! Conseguiste un 12 seguido de un 10.");
                     continuar = "n";

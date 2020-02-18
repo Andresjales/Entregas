@@ -10,15 +10,6 @@ namespace Ejercicio_7
             int dado = 0, total = 0, turnos = 0, ant = 0;
             string continuar = "s";
 
-            dado = aleatorio.Next(1, 13);
-            Console.WriteLine("Dado =  " + dado);
-            total += dado;
-            Console.WriteLine("Su total es: " + total);
-            Console.WriteLine("¿Desea continuar? (s/n): ");
-            continuar = Console.ReadLine();
-            turnos++;
-            ant = dado;
-
             while (continuar == "s")
             {
                 ant = dado;

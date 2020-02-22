@@ -23,7 +23,7 @@ namespace Ejercicio_6
                 tomar = Console.ReadLine();
             }
 
-            while (tomar == "s" && total != 21)
+            while (tomar == "s")
             {
                 cartas = aleatorio.Next(1, 11);
                 Console.WriteLine("Carta = " + cartas);

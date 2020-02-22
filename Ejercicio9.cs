@@ -87,8 +87,15 @@ namespace Ejercicio_9
                 jugador++;
             }
 
-            Console.Write("\nEl ganador fue el jugador " + jugadorMax);
-            Console.Write(" y el que obtuvo menos puntos fue el jugador " + jugadorMin);
+            if (max == 0 && min == 0)
+            {
+                Console.Write("\nNo hubo ningun ganador.");
+            }
+            else
+            {
+                Console.Write("\nEl ganador fue el jugador " + jugadorMax);
+                Console.Write(" y el que obtuvo menos puntos fue el jugador " + jugadorMin);
+            }
         }
     }
 }

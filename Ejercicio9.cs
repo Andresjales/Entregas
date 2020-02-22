@@ -38,13 +38,12 @@ namespace Ejercicio_9
                     Console.WriteLine("Su total es: " + total);
                     Console.WriteLine("¿Desea tomar más? (s/n): ");
                     tomar = Console.ReadLine();
-                }
-
-                while (tomar != "s" && tomar != "n")
-                {
-                    Console.WriteLine("Respuesta invalida.");
-                    Console.WriteLine("¿Desea tomar más? (s/n): ");
-                    tomar = Console.ReadLine();
+                    while (tomar != "s" && tomar != "n")
+                    {
+                        Console.WriteLine("Respuesta invalida.");
+                        Console.WriteLine("¿Desea tomar más? (s/n): ");
+                        tomar = Console.ReadLine();
+                    }
                 }
 
                 while (tomar == "s")
